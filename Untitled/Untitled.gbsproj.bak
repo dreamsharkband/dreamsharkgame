@@ -9550,9 +9550,9 @@
                                             "id": "a5dddc76-e5fe-424a-9b2b-1ad1834acefb",
                                             "command": "EVENT_SWITCH_SCENE",
                                             "args": {
-                                                "sceneId": "94c18861-b352-4f49-a64d-52f2e3415077",
-                                                "x": 26,
-                                                "y": 6,
+                                                "sceneId": "f8f027ef-b818-4038-9eda-0ac477facb41",
+                                                "x": 25,
+                                                "y": 8,
                                                 "direction": "right",
                                                 "fadeSpeed": "4"
                                             }
@@ -96994,9 +96994,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 3792,
-        "worldScrollY": 2324,
-        "zoom": 176,
+        "worldScrollX": 288,
+        "worldScrollY": 0,
+        "zoom": 107,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
