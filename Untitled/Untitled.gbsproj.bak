@@ -9142,7 +9142,8 @@
                     "command": "EVENT_MUSIC_PLAY",
                     "args": {
                         "musicId": "326b3cbc-1e3d-4a43-846f-c962ece2c317",
-                        "loop": true
+                        "loop": true,
+                        "__collapse": true
                     }
                 },
                 {
@@ -9167,13 +9168,13 @@
                             "b",
                             "a"
                         ],
-                        "__collapse": false
+                        "__collapse": true
                     }
                 },
                 {
                     "command": "EVENT_RNG_SEED",
                     "args": {
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "id": "8ad0321f-22d6-4648-ac0f-72703fe864a4"
                 },
@@ -9181,7 +9182,7 @@
                     "id": "19a94599-0006-4e3f-9049-c5087d230ed8",
                     "command": "EVENT_LOOP",
                     "args": {
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -9634,7 +9635,8 @@
                 "default-bg-5"
             ],
             "playerSpriteSheetId": "c0310735-3e7c-4ff1-bcff-b07d818d433b",
-            "autoFadeSpeed": 4
+            "autoFadeSpeed": 4,
+            "autoFadeEventCollapse": true
         },
         {
             "id": "3509d273-bf7e-4946-89ce-a489df5a449d",
@@ -68889,7 +68891,7 @@
                 2,
                 2,
                 4,
-                3,
+                1,
                 2,
                 1,
                 1,
@@ -132873,9 +132875,9 @@
         "startDirection": "up",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1302,
+        "worldScrollX": 0,
         "worldScrollY": 0,
-        "zoom": 90,
+        "zoom": 40.5,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
